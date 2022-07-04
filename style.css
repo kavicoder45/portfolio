@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');/*this font is taken from google fonts(copy and paste url)*/
+ *{
+      padding: 0;
+      Margin: 0;
+}
+body{
+                               /*you have to create ody insert your full backgorund color*/
+    background-color:rgb(252, 244, 247);
+    font-family: 'Times New Roman', Times, serif;
+                                                 /*if you give this font in body.it changes whole paragraphy if want specific paragraph you can 
+                                                 create div(class)*/
+
+}
+nav ul{
+    display: flex;/*align coloumn*/
+    justify-content: space-between;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;/*it remove the bulletin points*/
+
+}
+#logo img{/*add style to the image*/
+        
+    width: 100px;
+    height: 100px;
+    border: 4px solid chocolate;
+    border-radius: 50%;
+}
+nav ul li{/*to add space between the list elements*/
+     margin: 0 20px;    
+}
+nav ul li a{/*we use this to remove the line from anchor tage ,and also we change the color*/
+    text-decoration: none;
+    color:blue;
+}
+header{
+  /* background: rgba(16, 15, 15, 0.782); */
+  color:white;
+  height: 398px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://th.bing.com/th/id/R.1d1d7008ad972278c87267636e23a119?rik=tzC80d4BLv1xnQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2fe%2f2%2fe%2f24265.jpg&ehk=VAfhI3uYSln7qUr1ooIBQt5xZHK%2fF3lF5AApj4SppLQ%3d&risl=&pid=ImgRaw&r=0");
+  }
+
+  #portfolio img
+  {
+     display: flex;
+     border-radius: 10%;
+     width: fit-content;
+
+  }
+ 
+  #bio
+  {
+    display:flex;
+    align-items: center;
+  }
+  #bio article *{
+
+    margin:2px
+  }
+  .break{
+    display:block;
+  }
+  #bio img{
+     
+    width:240px;
+    height: 195px;
+     border-radius:30%; 
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  #portfolio div{   /*actually we said first portfolio next tell div*/
+    display:flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    font-family: Times New 'Times New Roman', Times, serif;
+  }
+  #portfolio
+  {
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 30px
+
+  }
+#txt{
+
+   font-size: 1.5em;
+   display: flex;
+   flex-direction: row;
+   padding:30px;
+
+}
+#head{
+   color: maroon;
+}
+
+#tech
+{
+  display: flex;
+  justify-content:space-around;
+  padding: 2p 0px 3px;
+  background-color: rgba(141, 170, 169, 0.322);
+  height:50vh;
+  font-style: italic;
+  align-items: center 10px;
+
+}
+.subhead
+{
+  padding: 10px}
+
+  #port
+  {
+    color: white;
+  }
+  #subhead2 h4
+  {
+    align-items: center;
+    padding: 10%;
+  }
+  
+  #portfolio h2
+  { display: flex;
+    color:white;
+    justify-content: center;
+    font-variant: small-caps;
+  }
+  #portfolio h5
+  {
+    color: white;
+  }
+  #tech ul h3{
+     padding: 20px
+  }
+  #tech ul h4
+  {
+    padding: 20px
+  }
+  #mainhead
+  {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  #portfolio h5
+  { display: flex;
+    color:white;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+  }
+  #samllhead h4
+  {
+    display: flex;
+    color:white;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10%;
+     }
+     #footer{
+        
+      display: flex;
+      background-color: lavenderblush;
+     }
